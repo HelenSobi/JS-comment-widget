@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #eef2f3;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #555;
+    margin-top: 20px;
+}
+
+.feature-wrapper ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.feature-wrapper li {
+    color: #181818;
+    
+    padding: 8px;
+    border-radius: 5px;
+}
+
+
+.comment-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.comment-box textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    resize: none;
+    transition: border 0.3s;
+}
+
+.comment-box textarea:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+.comment-box button {
+    align-self: flex-end;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.comment-box button:hover {
+    background-color: #007BFF;
+}
+
+.comment-list {
+    margin-top: 10px;
+}
+
+.commentwrapper {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background: #f9f9f9;
+    position: relative;
+}
+
+.commentwrapper p {
+    margin: 0;
+    color: #333;
+}
+
+.button-flex {
+    display: flex;
+    margin-top: 10px;
+}
+
+.button-flex button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #007BFF;
+    font-size: 14px;
+    transition: color 0.3s;
+    margin-right:1rem
+}
+
+.button-flex button:hover {
+    color: #0056b3;
+}
+
+.replyContainer {
+    margin-top: 10px;
+    padding: 10px;
+    background: #e9ecef;
+    border-left: 5px solid #007BFF;
+    border-radius: 5px;
+}
+
+.replyText {
+    margin: 0;
+    padding: 5px 0;
+}
+
+.reply-textarea {
+    width: calc(100% - 22px);
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.reply-textarea:focus {
+    border-color: #007BFF;
+}
+
+.replybtn, .cancelbtn {
+    margin-right: 5px;
+    padding: 6px 12px;
+   
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.replybtn:hover, .cancelbtn:hover {
+    background: #e7e7e7;
+}

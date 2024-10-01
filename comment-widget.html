@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">  
+        <!-- Unicode Transformation Format - 8 bit -->
+         <title>Comment Widget</title>
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+         <link rel="stylesheet" href="./comment-widget-style.css">
+    </head>
+    <body>
+        <section class="flex flex-dir-column">
+            <div class="feature-box">
+                <h1>ECMAScript 6 / ES6 New Features</h1>
+                <div class="feature-wrapper">
+                    <ul>
+                        <li>let and const keyword</li>
+                        <li>Arrow Functions</li>
+                        <li>Destucturing</li>
+                        <li>Template literals</li>
+                        <li>Assigning default values to parameter</li>
+                        <li>Ternary Operator</li>
+                        <li>The spread Operator (...)</li>
+                        <li>map, filter, reduce</li>
+                        <li>import / export modules</li>
+                        <li>Async/Await</li>
+                    </ul>
+                </div>
+               
+            </div>
+           
+            <h3><span id="comment-length"></span> comments</h3>
+            
+            <div class="comment-box">
+                <textArea rows="3" cols="10" id="textAreaText" placeholder="Add a comment ..."></textArea>
+                <button onclick="handleClick()" id="postCommentBtn">Post a comment</button>   
+            </div>
+            <div id="commentList">
+
+            </div>
+        </section>
+       
+        <script src="comment-widget.js"></script>
+    </body>
+</html>

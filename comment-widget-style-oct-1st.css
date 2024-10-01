@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing : border-box;
+    border:none;
+    list-style-type: circle;
+}
+body{
+    font-family:"helvetica", sans-serif;
+    font-size:1rem;
+}
+button{
+    padding:.5rem 1rem;
+    font-size:1rem;
+    text-align:center;
+    border-radius:5px;
+    font-weight:600; 
+}
+section{
+    margin:1rem;
+}
+.feature-wrapper{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+/* center div horizontally and vertically */
+ /* top:50%;
+    left:50%;
+    position:absolute;
+    transform:translate(-50%,-50%); */
+.flex{
+    display:flex;
+}
+.comment-box, .commentwrapper, .feature-box{
+    padding:1rem;
+    margin-bottom:1rem;
+    box-shadow:0px 3px 5px 2px #ddd;
+}
+.flex-dir-column{
+    flex-direction:column;
+}
+    
+h1{
+    font-size:1rem;
+    text-align:center;
+    padding:1rem;
+    color:brown; 
+}
+h1,h3{
+    margin-bottom:1rem;
+}
+ul li{
+    
+}
+#textAreaText{
+    width:100%;
+    border:1px solid #ddd;
+    resize:none;
+    margin:1rem 0;
+}
+#postCommentBtn , .replybtn{
+    color:brown;
+    background-color: blanchedalmond;
+}
+.commentwrapper{
+    /* display:flex;
+    justify-content:space-between;
+    flex-flow:row wrap; */
+    padding:1rem;
+    word-wrap:break-word; /* Ensure long words break and don't overflow */
+    white-space:normal;  /* Allows the text to wrap within the card and avoid issues from other inherited styles*/
+}
+.button-flex button{
+    margin-right:1rem;
+    padding:.5rem 1rem;
+}
+.commentwrapper .button-flex{
+    margin-top:.5rem;
+    display:flex;  
+}
+.reply-textarea{
+    margin:1rem;
+    width:100%; 
+    border:1px solid #ddd;  
+}
+.replybtn{
+    margin-left:1rem;
+}
+.replyText{
+    margin:1rem 0 0 1rem;
+    font-size:.9rem;
+}
+.cancelbtn{
+    background-color:unset;
+}
